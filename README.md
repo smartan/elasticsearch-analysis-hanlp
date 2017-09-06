@@ -7,10 +7,10 @@ elasticsearch-analysis-hanlp
     hanlp-1.2.4.jar
 
     hanlp.properties
-
+    
     es-plugin.properties
 
-    data-for-1.2.8-full.zip
+    data-for-1.2.4-full.zip
 ----------------------
 
 ## 2、	放置的目录
@@ -29,6 +29,8 @@ elasticsearch-analysis-hanlp
 （2）	词典文件
 
     data-for-1.2.8-full.zip放在 /data/hanlp下面并解压
+    
+    修改hanlp.properties的root，指向data的父目录
 ----------------------
 
 ## 3、	修改elasticsearch.yml
